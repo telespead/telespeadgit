@@ -325,110 +325,152 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
+🚀لیست دستورات ربات اکتیو🚀
 
-!kick [username|id]
-You can also do it by reply
 
-!ban [ username|id]
-You can also do it by reply
+🔰!kick [username/id]🔰
+"اخراج کردن کسی"
 
-!unban [id]
-You can also do it by reply
 
-!who
-Members list
+🔰!ban [ username|id]🔰
+"بن کردن کسی"
 
-!modlist
-Moderators list
 
-!promote [username]
-Promote someone
+🔰!unban [id]🔰
+"حذف بن کردن کسی"
 
-!demote [username]
-Demote someone
 
-!kickme
-Will kick user
+🔰!who🔰
+"گرفتن لیست اعضای گروه"
 
-!about
-Group description
 
-!setphoto
-Set and locks group photo
+🔰!modlist🔰
+"لیست مدیران گروه"
 
-!setname [name]
-Set group name
 
-!rules
-Group rules
+🔰!promote [username]🔰
+"افزودن مدیر در گروه"
 
-!id
-return group id or user id
 
-!help
+🔰!demote [username]🔰
+"حذف مدیر کردن کسی در گروه"
 
-!lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+🔰!kickme🔰
+"اخراج کردن خودتان از گروه"
 
-!set rules <text>
-Set <text> as rules
 
-!set about <text>
-Set <text> as about
+🔰!about🔰
+"موضوع گروه"
 
-!settings
-Returns group settings
 
-!newlink
-create/revoke your group link
+🔰!setphoto🔰
+"گذاشتن عکس بر روی گروه"
 
-!link
-returns group link
 
-!owner
-returns group owner id
+🔰!setname [name]🔰
+"گذاشتن اسم روی گروه"
 
-!setowner [id]
-Will set id as owner
 
-!setflood [value]
-Set [value] as flood sensitivity
+🔰!rules🔰
+ "قوانین گروه"
 
-!stats
+
+🔰!id🔰
+"دیدن آیدی خودتان و گروه"
+"در صورت ریپلی آیدی فرد"
+
+
+🔰!help🔰
+"راهنما"
+
+
+🔰!lock🔰
+ [member/name/bots/leave]  
+"قفل کردن:خروج/اسم/ربات/اعضا"
+
+
+
+🔰!Locks🔰 [member|name|bots|leaveing] 
+"قفل کردن:خروج/اسم/ربات/اعضا(اتوماتیک)"
+
+
+🔰!unlock🔰 [member|name|bots|leave]
+Unlocks
+"باز کردن:خروج/اسم/ربات/اعضا"
+ [member|name|bots|leaving]
+"باز کردن:خروج/اسم/ربات/اعضا"
+
+
+🔰!set rules [text]🔰
+"انتخاب قوانین گروه"
+
+
+🔰!set about [text]🔰
+"انتخاب موضوع گروه"
+
+
+🔰!settings🔰
+"دیدن تنظیمات گروه"
+
+
+🔰!newlink🔰
+"ساخت لینک جدید برای گروه"
+
+
+🔰!link🔰
+"دیدن لینک الان گروه"
+
+🔰!owner🔰
+   "آیدی صاحب گروه"
+
+
+🔰!setowner [id]🔰
+"تغییر صاحب گروه"
+
+
+🔰!setflood [value]🔰
+"حساسیت ضد اسپم"
+
+
+🔰!stats🔰
 Simple message statistics
 
-!save [value] <text>
+
+🔰!save [value] [text]🔰
 Save <text> as [value]
 
-!get [value]
+
+🔰!get [value]🔰
 Returns text of [value]
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+🔰!clean🔰
+[member/modlist/rules/about]
+"پاک کردنی ها"
+
+
+🔰!res [username]🔰
 returns user id
-"!res @username"
+"دیدن آیدی عددی عضو"
 
-!log
+
+🔰!log🔰
 will return group logs
 
-!banlist
-will return group ban list
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+🔰!banlist🔰
+"لیست بن شده های گروه"
+●●●●●●●●●●●●
+برای اداره گروه میتوانید از
+"!" و "/" استفاده کنید.
+■■■■■■■■■■■■
+صاحب گروه و دیگر مدیران میتوانند گروه را مدیریت کنند.
+○○○○○○○○○○○○
+و فقط صاحب گروه میتواند : مدیر اضافه کند،قوانین بگذارد،مدیرحذف کند.
+〰〰〰〰〰〰〰〰〰〰
+ارتباط با ادمین سازنده:
+ © @Mr_anti_admin ©
 
 ]]
   }
