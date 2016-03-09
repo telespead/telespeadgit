@@ -254,32 +254,31 @@ Our channels
 Realm Commands:
 
 !creategroup [Name]
-Create a group
+ساختن گروه جدید
 
 !createrealm [Name]
-Create a realm
+ساخت گروه رلم
 
 !setname [Name]
-Set realm name
+گذاشتن اسم
 
 !setabout [GroupID] [Text]
-Set a group's about text
+نمیدونم ینی چی خخخ
 
 !setrules [GroupID] [Text]
-Set a group's rules
+گذاشتن قوانین
 
 !lock [GroupID] [setting]
-Lock a group's setting
+قفل کردن تنظیمات
 
 !unlock [GroupID] [setting]
-Unock a group's setting
+برعکس بالایی
 
 !wholist
-Get a list of members in group/realm
+لیست اعضا
 
 !who
-Get a file of members in group/realm
-
+فایل لیست اعضا
 !type
 Get group type
 
