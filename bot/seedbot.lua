@@ -324,7 +324,7 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-🚀لیست دستورات ربات اکتیو🚀
+🚀لیست دستورات ربات 🚀
 
 
 🔰!kick [username/id]🔰
@@ -470,6 +470,7 @@ will return group logs
 〰〰〰〰〰〰〰〰〰〰
 ارتباط با ادمین سازنده:
  © @Mr_anti_admin ©
+ @best_boy2
 ]]
   }
   serialize_to_file(config, './data/config.lua')
