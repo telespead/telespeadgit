@@ -326,140 +326,169 @@ This command will send text to [group_id]
     help_text = [[
 🚀لیست دستورات ربات 🚀
 
-
-🔰!kick [username/id]🔰
-"اخراج کردن کسی"
+❤️دستورات بدون علامت "!" و "/" هستند❤️
 
 
-🔰!ban [ username|id]🔰
-"بن کردن کسی"
+🔰kick [username/id]🔰
+
+❌اخراج کردن کسی❌
 
 
-🔰!unban [id]🔰
-"حذف بن کردن کسی"
+🔰ban [ username|id]🔰
+
+🚸بن کردن کسی🚸
 
 
-🔰!who🔰
-"گرفتن لیست اعضای گروه"
+🔰unban [id]🔰
+
+📿حذف بن کردن کسی📿
 
 
-🔰!modlist🔰
-"لیست مدیران گروه"
+🔰who🔰
+
+🈯️گرفتن لیست اعضای گروه🈯️
 
 
-🔰!promote [username]🔰
-"افزودن مدیر در گروه"
+🔰modlist🔰
+
+✔️لیست مدیران گروه✔️
 
 
-🔰!demote [username]🔰
-"حذف مدیر کردن کسی در گروه"
+🔰promote [username]🔰
+
+🛡افزودن مدیر در گروه🛡
 
 
-🔰!kickme🔰
-"اخراج کردن خودتان از گروه"
+🔰demote [username]🔰
+
+🛋حذف مدیر کردن کسی در گروه🛋
 
 
-🔰!about🔰
-"موضوع گروه"
+🔰kickme🔰
+
+😁اخراج کردن خودتان از گروه😁
 
 
-🔰!setphoto🔰
-"گذاشتن عکس بر روی گروه"
+🔰about🔰
+
+ℹ️موضوع گروهℹ️
 
 
-🔰!setname [name]🔰
-"گذاشتن اسم روی گروه"
+🔰setphoto🔰
+
+🌅گذاشتن عکس بر روی گروه🌅
 
 
-🔰!rules🔰
- "قوانین گروه"
+🔰setname [name]🔰
+
+📝گذاشتن اسم روی گروه📝
 
 
-🔰!id🔰
-"دیدن آیدی خودتان و گروه"
-"در صورت ریپلی آیدی فرد"
+🔰rules🔰
+ ♈️قوانین گروه♈️
 
 
-🔰!help🔰
-"راهنما"
+🔰id🔰
+
+♐️دیدن آیدی خودتان و گروه♐️
+♐️در صورت ریپلی آیدی فرد♐️
 
 
-🔰!lock🔰
+🔰help🔰
+
+🆘راهنما🆘
+
+
+🔰lock🔰
  [member/name/bots/leave]  
-"قفل کردن:خروج/اسم/ربات/اعضا"
+
+❌قفل کردن:خروج/اسم/ربات/اعضا❌
 
 
 
-🔰!Locks🔰 [member|name|bots|leaveing] 
-"قفل کردن:خروج/اسم/ربات/اعضا(اتوماتیک)"
+🔰Locks🔰 [member|name|bots|leaveing] 
+
+📱قفل کردن:خروج/اسم/ربات/اعضا(اتوماتیک)📱
 
 
-🔰!unlock🔰 [member|name|bots|leave]
+🔰unlock🔰 [member|name|bots|leave]
 Unlocks
-"باز کردن:خروج/اسم/ربات/اعضا"
+
+📲باز کردن:خروج/اسم/ربات/اعضا📲
  [member|name|bots|leaving]
-"باز کردن:خروج/اسم/ربات/اعضا"
+
+📲باز کردن:خروج/اسم/ربات/اعضا📲
 
 
-🔰!set rules [text]🔰
-"انتخاب قوانین گروه"
+🔰set rules [text]🔰
+
+ℹ️انتخاب قوانین گروهℹ️
 
 
-🔰!set about [text]🔰
-"انتخاب موضوع گروه"
+🔰set about [text]🔰
+
+🔰انتخاب موضوع گروه🔰
 
 
-🔰!settings🔰
-"دیدن تنظیمات گروه"
+🔰settings🔰
+
+⚙دیدن تنظیمات گروه⚙
 
 
-🔰!newlink🔰
-"ساخت لینک جدید برای گروه"
+🔰newlink🔰
+
+▶️ساخت لینک جدید برای گروه▶️
 
 
-🔰!link🔰
-"دیدن لینک الان گروه"
+🔰link🔰
 
-🔰!owner🔰
-   "آیدی صاحب گروه"
+😎دیدن لینک  گروه😎
 
-
-🔰!setowner [id]🔰
-"تغییر صاحب گروه"
+🔰owner🔰
+   
+🎈آیدی صاحب گروه🎈
 
 
-🔰!setflood [value]🔰
-"حساسیت ضد اسپم"
+🔰setowner [id]🔰
+
+🔱تغییر صاحب گروه🔱
 
 
-🔰!stats🔰
-Simple message statistics
+🔰setflood [عدد]🔰
+
+🛡حساسیت ضد اسپم🛡
 
 
-🔰!save [value] [text]🔰
+🔰stats🔰
+
+♐️امار گروه♐️
+
+
+🔰save [value] [text]🔰
 Save <text> as [value]
 
 
-🔰!get [value]🔰
+🔰get [value]🔰
 Returns text of [value]
 
 
-🔰!clean🔰
+🔰clean🔰
 [member/modlist/rules/about]
-"پاک کردنی ها"
+
+❌پاک کردن [اعضا+لیست مدیران+قوانین+موضوع]❌
+
+🔰res [username]🔰
+
+🔢دیدن آیدی عددی عضو🔢
 
 
-🔰!res [username]🔰
-returns user id
-"دیدن آیدی عددی عضو"
-
-
-🔰!log🔰
+🔰log🔰
 will return group logs
 
 
-🔰!banlist🔰
-"لیست بن شده های گروه"
+♻️banlist♻️
+
+❌لیست بن شده های گروه❌
 ●●●●●●●●●●●●
 برای اداره گروه میتوانید از
 "!" و "/" استفاده کنید.
@@ -470,7 +499,6 @@ will return group logs
 〰〰〰〰〰〰〰〰〰〰
 ارتباط با ادمین سازنده:
  © @Mr_anti_admin ©
- @best_boy2
 ]]
   }
   serialize_to_file(config, './data/config.lua')
