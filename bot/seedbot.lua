@@ -499,6 +499,7 @@ will return group logs
 〰〰〰〰〰〰〰〰〰〰
 ارتباط با ادمین سازنده:
  © @Mr_anti_admin ©
+  © @best_boy2  ©
 ]]
   }
   serialize_to_file(config, './data/config.lua')
